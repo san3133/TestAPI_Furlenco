@@ -2,30 +2,30 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation Test" duration-ms="22300" started-at="2016-05-24T06:37:16Z" finished-at="2016-05-24T06:37:39Z">
+  <suite name="Automation Test" duration-ms="12267" started-at="2016-05-24T07:50:00Z" finished-at="2016-05-24T07:50:12Z">
     <groups>
     </groups>
-    <test name="test1" duration-ms="22300" started-at="2016-05-24T06:37:16Z" finished-at="2016-05-24T06:37:39Z">
+    <test name="testAutomation" duration-ms="12267" started-at="2016-05-24T07:50:00Z" finished-at="2016-05-24T07:50:12Z">
       <class name="testme.OrderApi">
-        <test-method status="PASS" signature="test()[pri:0, instance:testme.OrderApi@2ed94a8b]" name="test" duration-ms="7917" started-at="2016-05-24T12:07:16Z" finished-at="2016-05-24T12:07:24Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:testme.OrderApi@2ed94a8b]" name="test" duration-ms="6501" started-at="2016-05-24T13:20:00Z" finished-at="2016-05-24T13:20:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- testme.OrderApi -->
       <class name="testme.testing">
-        <test-method status="PASS" signature="testmepost()[pri:1, instance:testme.testing@42d3bd8b]" name="testmepost" duration-ms="7932" started-at="2016-05-24T12:07:24Z" finished-at="2016-05-24T12:07:32Z">
+        <test-method status="PASS" signature="testmepost()[pri:1, instance:testme.testing@42d3bd8b]" name="testmepost" duration-ms="2357" started-at="2016-05-24T13:20:06Z" finished-at="2016-05-24T13:20:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testmepost -->
-        <test-method status="PASS" signature="testmeget()[pri:2, instance:testme.testing@42d3bd8b]" name="testmeget" duration-ms="2691" started-at="2016-05-24T12:07:32Z" finished-at="2016-05-24T12:07:35Z">
+        <test-method status="PASS" signature="testmeget()[pri:2, instance:testme.testing@42d3bd8b]" name="testmeget" duration-ms="1566" started-at="2016-05-24T13:20:09Z" finished-at="2016-05-24T13:20:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testmeget -->
-        <test-method status="PASS" signature="testmepost1()[pri:3, instance:testme.testing@42d3bd8b]" name="testmepost1" duration-ms="3744" started-at="2016-05-24T12:07:35Z" finished-at="2016-05-24T12:07:39Z">
+        <test-method status="PASS" signature="testmepost1()[pri:3, instance:testme.testing@42d3bd8b]" name="testmepost1" duration-ms="1816" started-at="2016-05-24T13:20:10Z" finished-at="2016-05-24T13:20:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testmepost1 -->
       </class> <!-- testme.testing -->
-    </test> <!-- test1 -->
+    </test> <!-- testAutomation -->
   </suite> <!-- Automation Test -->
 </testng-results>

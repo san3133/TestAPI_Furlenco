@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite verbose="0" name="Failed suite [Automation Test]">
-  <test name="test1">
+  <test name="testAutomation">
     <packages>
       <package name="testme"/>
     </packages>
@@ -9,5 +9,5 @@
       <class name="testme.OrderApi"/>
       <class name="testme.testing"/>
     </classes>
-  </test> <!-- test1 -->
+  </test> <!-- testAutomation -->
 </suite> <!-- Failed suite [Automation Test] -->

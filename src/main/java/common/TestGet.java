@@ -1,4 +1,4 @@
-package test;
+package common;
 
 import static com.jayway.restassured.RestAssured.given;
 

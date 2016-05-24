@@ -13,7 +13,7 @@ public class OrderApi {
 	
 	public void test(){
 		
-		b.testPostGet();
+		b.testNeworder1();
 		
 	}
 }

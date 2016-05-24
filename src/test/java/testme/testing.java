@@ -4,9 +4,9 @@ import java.io.IOException;
 
 import org.testng.annotations.Test;
 
-import test.TestGet;
-import test.TestPost2;
-import test.testPost;
+import common.TestGet;
+import common.TestPost2;
+import common.testPost;
 
 public class testing {
 

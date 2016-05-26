@@ -9,14 +9,12 @@ import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.response.Response;
 
 import Utils.utility;
-import Utils.xml_read;
 import properties.Constant;
 
 public class BuisnessLogic {
 
 	Constant c = new Constant();
 	utility u = new utility();
-	xml_read x = new xml_read();
 
 	// this section deals with new orders api
 	public void testNeworder1() {

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7005" started-at="2016-05-26T08:10:25Z" finished-at="2016-05-26T08:10:32Z">
+  <suite name="Default suite" duration-ms="46" started-at="2016-05-26T09:00:20Z" finished-at="2016-05-26T09:00:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7005" started-at="2016-05-26T08:10:25Z" finished-at="2016-05-26T08:10:32Z">
-      <class name="common.BuisnessLogic">
-        <test-method status="PASS" signature="testingSubscApi2()[pri:0, instance:common.BuisnessLogic@31ef45e3]" name="testingSubscApi2" duration-ms="6985" started-at="2016-05-26T13:40:25Z" finished-at="2016-05-26T13:40:32Z">
+    <test name="Default test" duration-ms="46" started-at="2016-05-26T09:00:20Z" finished-at="2016-05-26T09:00:20Z">
+      <class name="testme.TestXml">
+        <test-method status="PASS" signature="testit()[pri:0, instance:testme.TestXml@598067a5]" name="testit" duration-ms="22" started-at="2016-05-26T14:30:20Z" finished-at="2016-05-26T14:30:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testingSubscApi2 -->
-      </class> <!-- common.BuisnessLogic -->
+        </test-method> <!-- testit -->
+      </class> <!-- testme.TestXml -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

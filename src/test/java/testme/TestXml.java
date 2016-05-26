@@ -7,19 +7,21 @@ import javax.xml.parsers.ParserConfigurationException;
 import org.testng.annotations.Test;
 import org.xml.sax.SAXException;
 
-import Utils.xml_read;
+import Utils.read_xml;
 import properties.Constant;
 
 public class TestXml {
 
-	xml_read x = new xml_read();
+	// xml_read x = new xml_read();
 	Constant c = new Constant();
+	read_xml x = new read_xml();
 
-	@Test(enabled = false)
+	@Test
 
-	public void testme() throws SAXException, IOException, ParserConfigurationException {
-		String mia = x.readXML("New_Orders", "companyname");
+	public void testit() throws SAXException, IOException, ParserConfigurationException {
+
+		String mia = x.readXML(c.test, "New_Orders", "buid_ex");
 		System.out.println(mia);
-	}
 
+	}
 }

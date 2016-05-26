@@ -48,4 +48,7 @@ public class Constant {
 	public String jsonBody = u.generateStringFromResource(basepath + File.separator + "src" + File.separator + "main"
 			+ File.separator + "java" + File.separator + "properties" + File.separator + "generated.json");
 
+	public File test = new File(basepath + File.separator + "src" + File.separator + "main" + File.separator + "java"
+			+ File.separator + "properties" + File.separator + "TestData.xml");
+
 }

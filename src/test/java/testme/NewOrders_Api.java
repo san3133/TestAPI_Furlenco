@@ -4,11 +4,10 @@ import org.testng.annotations.Test;
 
 import common.BuisnessLogic;
 
-public class OrderApi {
+public class NewOrders_Api {
 
 	BuisnessLogic b = new BuisnessLogic();
 
-	// commit
 	@Test
 
 	public void test() {

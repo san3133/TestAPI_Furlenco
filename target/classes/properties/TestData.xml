@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+
+<New_Orders>
+        <companybuid>GC15464142NS</companybuid>
+        <buid_ex>TAMPABIZ</buid_ex>
+        <companyname>furlenco</companyname>
+         <senderaddress>TAMPABIZ03</senderaddress>
+         <aprf>850</aprf>
+         <filename>C102827201515343AM.txt150827015348</filename>
+         <protocol>FTP</protocol>
+        <companycustomerid>100000</companycustomerid>
+         <partnername>1SC102_IQA_FTP_RCVNG_TP</partnername>
+         <servicereference>014000000006417821</servicereference>
+         <receiveraddress>ZZ:1SC102_IQA_RCVR</receiveraddress>
+         <snrf>000005129</snrf>
+         <host>lit-vaos-q011</host>
+</New_Orders >
+
+
+
+</project>

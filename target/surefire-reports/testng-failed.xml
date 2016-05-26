@@ -6,8 +6,10 @@
       <package name="testme"/>
     </packages>
     <classes>
-      <class name="testme.OrderApi"/>
-      <class name="testme.testing"/>
+      <class name="testme.NewOrders_Api"/>
+      <class name="testme.Slots_Api"/>
+      <class name="testme.Subscriptions_Api"/>
+      <class name="testme.TestXml"/>
     </classes>
   </test> <!-- testAutomation -->
 </suite> <!-- Failed suite [Automation Test] -->

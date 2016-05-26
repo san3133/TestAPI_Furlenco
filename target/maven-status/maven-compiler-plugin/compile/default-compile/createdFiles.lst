@@ -1,8 +1,5 @@
 properties/Constant.class
-common/testPost.class
-common/TestPost2.class
 Utils/Log.class
 common/BuisnessLogic.class
-common/TestGet.class
 Utils/utility.class
 Utils/xml_read.class

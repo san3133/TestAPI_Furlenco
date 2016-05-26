@@ -1,31 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation Test" duration-ms="12267" started-at="2016-05-24T07:50:00Z" finished-at="2016-05-24T07:50:12Z">
+  <suite name="Automation Test" duration-ms="17126" started-at="2016-05-26T08:19:40Z" finished-at="2016-05-26T08:19:57Z">
     <groups>
     </groups>
-    <test name="testAutomation" duration-ms="12267" started-at="2016-05-24T07:50:00Z" finished-at="2016-05-24T07:50:12Z">
-      <class name="testme.OrderApi">
-        <test-method status="PASS" signature="test()[pri:0, instance:testme.OrderApi@2ed94a8b]" name="test" duration-ms="6501" started-at="2016-05-24T13:20:00Z" finished-at="2016-05-24T13:20:06Z">
+    <test name="testAutomation" duration-ms="17126" started-at="2016-05-26T08:19:40Z" finished-at="2016-05-26T08:19:57Z">
+      <class name="testme.NewOrders_Api">
+        <test-method status="PASS" signature="test()[pri:0, instance:testme.NewOrders_Api@dfd3711]" name="test" duration-ms="6750" started-at="2016-05-26T13:49:40Z" finished-at="2016-05-26T13:49:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- testme.OrderApi -->
-      <class name="testme.testing">
-        <test-method status="PASS" signature="testmepost()[pri:1, instance:testme.testing@42d3bd8b]" name="testmepost" duration-ms="2357" started-at="2016-05-24T13:20:06Z" finished-at="2016-05-24T13:20:09Z">
+      </class> <!-- testme.NewOrders_Api -->
+      <class name="testme.Slots_Api">
+        <test-method status="PASS" signature="testSlots_Api1()[pri:1, instance:testme.Slots_Api@5f2050f6]" name="testSlots_Api1" duration-ms="1717" started-at="2016-05-26T13:49:47Z" finished-at="2016-05-26T13:49:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testmepost -->
-        <test-method status="PASS" signature="testmeget()[pri:2, instance:testme.testing@42d3bd8b]" name="testmeget" duration-ms="1566" started-at="2016-05-24T13:20:09Z" finished-at="2016-05-24T13:20:10Z">
+        </test-method> <!-- testSlots_Api1 -->
+        <test-method status="PASS" signature="testSlots_Api2()[pri:2, instance:testme.Slots_Api@5f2050f6]" name="testSlots_Api2" duration-ms="1706" started-at="2016-05-26T13:49:49Z" finished-at="2016-05-26T13:49:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testmeget -->
-        <test-method status="PASS" signature="testmepost1()[pri:3, instance:testme.testing@42d3bd8b]" name="testmepost1" duration-ms="1816" started-at="2016-05-24T13:20:10Z" finished-at="2016-05-24T13:20:12Z">
+        </test-method> <!-- testSlots_Api2 -->
+        <test-method status="PASS" signature="testSlots_Api3()[pri:3, instance:testme.Slots_Api@5f2050f6]" name="testSlots_Api3" duration-ms="1523" started-at="2016-05-26T13:49:51Z" finished-at="2016-05-26T13:49:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testmepost1 -->
-      </class> <!-- testme.testing -->
+        </test-method> <!-- testSlots_Api3 -->
+      </class> <!-- testme.Slots_Api -->
+      <class name="testme.Subscriptions_Api">
+        <test-method status="PASS" signature="testSubscription_Api1()[pri:0, instance:testme.Subscriptions_Api@3b81a1bc]" name="testSubscription_Api1" duration-ms="1761" started-at="2016-05-26T13:49:52Z" finished-at="2016-05-26T13:49:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubscription_Api1 -->
+        <test-method status="PASS" signature="testSubscription_Api2()[pri:2, instance:testme.Subscriptions_Api@3b81a1bc]" name="testSubscription_Api2" duration-ms="3656" started-at="2016-05-26T13:49:54Z" finished-at="2016-05-26T13:49:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubscription_Api2 -->
+      </class> <!-- testme.Subscriptions_Api -->
     </test> <!-- testAutomation -->
   </suite> <!-- Automation Test -->
 </testng-results>

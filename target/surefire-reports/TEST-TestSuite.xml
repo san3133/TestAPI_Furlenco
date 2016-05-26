@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="12.232" tests="4" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="17.11" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib"/>
@@ -25,7 +25,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/irfannadir/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf2824701674031558179.tmp"/>
+    <property name="classworlds.conf" value="/Users/irfannadir/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf5415277574514543320.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/irfannadir/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,8 +61,10 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="test" classname="testme.OrderApi" time="6.501"/>
-  <testcase name="testmepost" classname="testme.testing" time="2.352"/>
-  <testcase name="testmeget" classname="testme.testing" time="1.563"/>
-  <testcase name="testmepost1" classname="testme.testing" time="1.816"/>
+  <testcase name="test" classname="testme.NewOrders_Api" time="6.75"/>
+  <testcase name="testSlots_Api1" classname="testme.Slots_Api" time="1.715"/>
+  <testcase name="testSlots_Api2" classname="testme.Slots_Api" time="1.706"/>
+  <testcase name="testSlots_Api3" classname="testme.Slots_Api" time="1.521"/>
+  <testcase name="testSubscription_Api1" classname="testme.Subscriptions_Api" time="1.762"/>
+  <testcase name="testSubscription_Api2" classname="testme.Subscriptions_Api" time="3.656"/>
 </testsuite>

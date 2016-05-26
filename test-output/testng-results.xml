@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8597" started-at="2016-05-24T06:31:03Z" finished-at="2016-05-24T06:31:11Z">
+  <suite name="Default suite" duration-ms="7005" started-at="2016-05-26T08:10:25Z" finished-at="2016-05-26T08:10:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8597" started-at="2016-05-24T06:31:03Z" finished-at="2016-05-24T06:31:11Z">
-      <class name="testme.OrderApi">
-        <test-method status="PASS" signature="test()[pri:0, instance:testme.OrderApi@4667ae56]" name="test" duration-ms="8584" started-at="2016-05-24T12:01:03Z" finished-at="2016-05-24T12:01:11Z">
+    <test name="Default test" duration-ms="7005" started-at="2016-05-26T08:10:25Z" finished-at="2016-05-26T08:10:32Z">
+      <class name="common.BuisnessLogic">
+        <test-method status="PASS" signature="testingSubscApi2()[pri:0, instance:common.BuisnessLogic@31ef45e3]" name="testingSubscApi2" duration-ms="6985" started-at="2016-05-26T13:40:25Z" finished-at="2016-05-26T13:40:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- testme.OrderApi -->
+        </test-method> <!-- testingSubscApi2 -->
+      </class> <!-- common.BuisnessLogic -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

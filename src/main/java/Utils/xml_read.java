@@ -13,30 +13,34 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+import properties.Constant;
+
 public class xml_read {
 
-	
-	 public String readXML(String searchelement,String tag) throws SAXException, IOException, ParserConfigurationException{
-         String ele = null;
-         File fXmlFile = new File("C:\\Users\\NadirI.INTERNAL\\workspace\\GXS\\src\\properties\\TestData.xml");
-         
-         DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-         DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-         Document doc = dBuilder.parse(fXmlFile);
+	Constant c = new Constant();
 
-         doc.getDocumentElement().normalize();
+	public String readXML(String searchelement, String tag)
+			throws SAXException, IOException, ParserConfigurationException {
+		String ele = null;
+		File fXmlFile = new File(c.basepath + File.separator + "src" + File.separator + "main" + File.separator + "java"
+				+ File.separator + "properties" + File.separator + "TestData.xml");
 
-         NodeList nList = doc.getElementsByTagName(searchelement);
+		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+		DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+		Document doc = dBuilder.parse(fXmlFile);
 
+		doc.getDocumentElement().normalize();
 
-         Node nNode = nList.item(0);
+		NodeList nList = doc.getElementsByTagName(searchelement);
 
-         if (nNode.getNodeType() == Node.ELEMENT_NODE) {
-             Element eElement = (Element) nNode;
-              ele=eElement.getElementsByTagName(tag).item(0).getTextContent();
+		Node nNode = nList.item(0);
 
-         }
-         return ele;
-     }
-	
+		if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+			Element eElement = (Element) nNode;
+			ele = eElement.getElementsByTagName(tag).item(0).getTextContent();
+
+		}
+		return ele;
+	}
+
 }
